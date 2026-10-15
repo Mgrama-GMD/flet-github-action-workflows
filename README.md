@@ -49,3 +49,15 @@ deployed to GitHub Pages by the [`web-build-and-gh-pages-deploy.yml`](#what-is-i
 
 Contributions are welcome.
 Open an issue or PR with improvements, fixes, or suggestions.
+
+---
+
+## GitHub Actions Lab (added)
+
+This repository now includes a minimal "actions-lab" example to follow the Microsoft Learn module "Explore actions flow":
+
+- package.json and index.js: a trivial Node.js test script
+- .github/workflows/ci.yml: a CI workflow that runs `npm test` on push and PRs
+
+See the top-level README for the rest of the project. To trigger the lab workflow push to this branch or open a PR targeting main.
+
